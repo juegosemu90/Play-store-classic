@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Tienda-de-apps-2008-2017/',
+  base: '/Play-store-classic/',
 })
