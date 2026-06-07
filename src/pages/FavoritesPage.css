@@ -1,0 +1,37 @@
+.favorites-page {
+  padding-bottom: 80px;
+  animation: fadeIn 0.3s ease;
+}
+@media (min-width: 768px) { .favorites-page { padding-bottom: 24px; } }
+
+.favorites-hero {
+  background: var(--bg-header);
+  padding: 28px 16px;
+  color: white;
+  text-align: center;
+}
+.favorites-hero h1 { font-size: 24px; font-weight: 700; }
+.favorites-hero p { font-size: 14px; opacity: 0.8; margin-top: 4px; }
+
+.favorites-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 32px;
+  gap: 14px;
+  text-align: center;
+}
+
+.fav-empty-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.fav-empty-sub {
+  font-size: 14px;
+  color: var(--text-secondary);
+  max-width: 260px;
+  line-height: 1.5;
+}
