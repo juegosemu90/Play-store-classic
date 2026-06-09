@@ -217,18 +217,18 @@ export const apps = [
   mk(149, '8.0.3',          '64 MB', IHD32,  HD+'Angry%20Birds%20HD%20%288.0.3%29.apk', 'Angry Birds HD'),
 
   // ===== ANGRY BIRDS HD FREE =====
-  mk(156, '1.0.0', '8 MB',  IHDF1, '', 'Angry Birds HD Free'),
-  mk(157, '1.1.0', '9 MB',  IHDF2, '', 'Angry Birds HD Free'),
-  mk(158, '1.1.1', '9 MB',  IHDF2, '', 'Angry Birds HD Free'),
-  mk(159, '1.2.0', '10 MB', IHDF2, '', 'Angry Birds HD Free'),
-  mk(160, '1.2.1', '10 MB', IHDF2, '', 'Angry Birds HD Free'),
-  mk(161, '1.3.0', '11 MB', IHDF2, '', 'Angry Birds HD Free'),
-  mk(162, '1.3.1', '11 MB', IHDF2, '', 'Angry Birds HD Free'),
-  mk(163, '1.4.1', '12 MB', IHDF2, '', 'Angry Birds HD Free'),
-  mk(164, '1.5.0', '13 MB', IHDF3, '', 'Angry Birds HD Free'),
-  mk(165, '1.5.1', '13 MB', IHDF3, '', 'Angry Birds HD Free'),
-  mk(166, '1.6.0', '14 MB', IHDF4, '', 'Angry Birds HD Free'),
-  mk(167, '1.7.0', '15 MB', IHDF4, '', 'Angry Birds HD Free'),
+  mk(156, '1.0.0', '8 MB',  IHDF1, HDF+'Angry%20Birds%20Free%20HD%20%281.0.0%29.apk', 'Angry Birds HD Free'),
+  mk(157, '1.1.0', '9 MB',  IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.1.0%29.apk', 'Angry Birds HD Free'),
+  mk(158, '1.1.1', '9 MB',  IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.1.1%29.apk', 'Angry Birds HD Free'),
+  mk(159, '1.2.0', '10 MB', IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.2.0%29.apk', 'Angry Birds HD Free'),
+  mk(160, '1.2.1', '10 MB', IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.2.1%29.apk', 'Angry Birds HD Free'),
+  mk(161, '1.3.0', '11 MB', IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.3.0%29.apk', 'Angry Birds HD Free'),
+  mk(162, '1.3.1', '11 MB', IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.3.1%29.apk', 'Angry Birds HD Free'),
+  mk(163, '1.4.1', '12 MB', IHDF2, HDF+'Angry%20Birds%20Free%20HD%20%281.4.1%29.apk', 'Angry Birds HD Free'),
+  mk(164, '1.5.0', '13 MB', IHDF3, HDF+'Angry%20Birds%20Free%20HD%20%281.5.0%29.apk', 'Angry Birds HD Free'),
+  mk(165, '1.5.1', '13 MB', IHDF3, HDF+'Angry%20Birds%20Free%20HD%20%281.5.1%29.apk', 'Angry Birds HD Free'),
+  mk(166, '1.6.0', '14 MB', IHDF4, HDF+'Angry%20Birds%20Free%20HD%20%281.6.0%29.apk', 'Angry Birds HD Free'),
+  mk(167, '1.7.0', '15 MB', IHDF4, HDF+'Angry%20Birds%20Free%20HD%20%281.7.0%29.apk', 'Angry Birds HD Free'),
 ];
 
 export const getFeaturedApps   = () => apps.slice(0, 3);
