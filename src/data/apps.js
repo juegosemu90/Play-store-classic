@@ -39,6 +39,7 @@ const N   = 'https://archive.org/download/angry_birds_classic_ios_ports_preserva
 const HD  = 'https://archive.org/download/angry_birds_classic_ios_ports_preservation_pack/APPS/HD/HD.zip/';
 const NE = 'https://archive.org/download/angry_birds_classic_ios_ports_preservation_pack/APPS/Normal/Normal-Extra.zip/';
 const F = 'https://archive.org/download/angry_birds_classic_ios_ports_preservation_pack/APPS/Free/Free.zip/';
+const HDF   = 'https://archive.org/download/angry_birds_classic_ios_ports_preservation_pack/APPS/Free%20HD/Free%20HD.zip/';
 
 const mk = (id, ver, size, iconUrl, dl='', appName='') => {
   const base = appName || 'Angry Birds';
